@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(34, 21, 56);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+
+.nav-background{    
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(59, 58, 58); 
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.nav-list{
+    width: 100%;
+    display: flex;
+}
+
+.nav-list li{
+    list-style: none;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.nav-list li a{
+    background-color: rgb(59, 58, 58); 
+    text-decoration: 0;    
+    font-family: 'Ubuntu', sans-serif;
+    padding: 16px;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-list li a:hover, .material-symbols-outlined:hover{
+    background-color: rgb(48, 47, 47);
+    transition: 0.3s ease all
+}
+
+.nav-right{
+    width: 100%;
+    text-align: right;
+}
+
+
+.nav-list li a:active, .home-button:active {
+    background-color: rgb(93, 0, 255);
+}
+
+
+
+.material-symbols-outlined{
+    list-style: none;
+    background-color: rgb(59, 58, 58); 
+    text-decoration: 0;
+    color: white;
+    padding: 12px;
+}
+
+
+
+.introduction{
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 5px 5px 5px black; 
+}
+
+.introduction-p{
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: 1px 5px 5px black; 
+}
+
+.hammy-background{
+    width: 100%;
+    text-align: center;
+}
+
+.hammy-1{
+    margin-top: 30px;
+    width: 150px;
+    border-radius: 50px;
+}
+
+.my-projects h2{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px; 
+}
+
+.my-projects{
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    text-shadow: 5px 5px 5px black;       
+}
+
+.img1, .img2, .img3{
+    max-width: 100%;
+    width: 500px;
+    border-radius: 30px;
+    display: inline-block;
+    height: auto;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.img1:hover .overlay {
+    opacity: 1;
+  }
+
+
+.img1:hover, .img2:hover, .img3:hover{
+    color: #c00d3a;
+}
+
+
+.message-me{
+    margin-bottom: 25px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form-1{
+    text-align: center;
+    max-width: 100%;
+    margin-bottom: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.input{
+    width: 228px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.623);
+    color: white;
+    height: 25px;
+    margin: 5px;
+    font-weight: 600;
+}
+
+.textarea{
+    height: 150px;
+    width: 230px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.623);        
+}
+
+.send-button{
+    width: 230px;
+    font-family: 'Ubuntu', sans-serif; 
+    color: black;    
+}
+
+.form-1 input[type="submit"] {
+    cursor: pointer;
+    color: #fff;
+    border-color: transparent;
+    background-color: #e21346;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 15px;
+    transition: 0.3s ease all;
+    border-radius: 5px;
+  }
+
+.form-1 input[type="submit"]:hover {
+    background-color: #c00d3a;
+}
+
+.input::placeholder, .textarea::placeholder{
+    opacity: 0.3;
+    color: white;
+    font-weight: 600;
+}
+
+
+
+.contact-me{
+    position: static;
+    width: 100%;
+    text-align: center;
+}
+.contact-me ul li{
+    display: inline-block;
+}
+
+.contact-me ul li a{
+    padding: 15px;
+    list-style: none;
+    display: inline-block;
+    text-decoration: 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 25px;
+
+}
+
+.contact-me ul li a:hover{
+    color:#c00d3a;
+    transition: 0.3s ease all;
+}
+
+.contact-me-header{
+    margin-bottom: 25px;
+    color: white;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.footer-background{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(59, 58, 58); 
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.footer-text{
+    padding: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 15px;
+    text-align: right;
+    }
+
