@@ -67,21 +67,24 @@ body{
 
 
 .introduction{
-    margin-top: 25px;
+    margin-top: 2%;
     text-align: center;
     color: white;
     font-family: 'Poppins', sans-serif;
-    text-shadow: 5px 5px 5px black; 
+    text-shadow: 5px 5px 5px black;
 }
 
 .introduction-p{
-    margin-right: 150px;
-    margin-left: 150px;
     margin-top: 25px;
-    text-align: center;
+    text-align: left;
     color: white;
     font-family: 'Ubuntu', sans-serif;
     text-shadow: 1px 5px 5px black; 
+}
+
+.main-text{
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 .hammy-background{
